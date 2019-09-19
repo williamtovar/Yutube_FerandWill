@@ -1,0 +1,37 @@
+#loneli{
+  background-color: #fff;
+  color: #ff0;
+}
+#main {
+   float: left;
+}
+#supersug {
+   float: right;
+   width: 13em;
+   padding: 0 0.5em;
+   background-color: #fff;
+}
+
+#video{
+
+  padding-top: 10em;
+  width: auto;
+  height: auto;
+  padding: 0 5em;
+}
+
+#loneli ul{
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   overflow: hidden;
+   background-color: #333;
+}
+#loneli li {
+  float: left;
+}
+
+#description{
+  padding: 0;
+  margin: 0;
+}

@@ -1,0 +1,28 @@
+HTML
+<nav>
+</nav>
+
+<div id="izquierda">
+-Video
+-Info Video
+-Comentarios
+</>
+
+<div id="derecha")
+-Thumbnails
+-Tabla HTML
+</>
+
+CSS
+
+#izquierda
+{
+float: left;
+width:65;
+}
+
+#derecha
+{
+float:right;
+width: 35;
+}

@@ -1,8 +1,10 @@
 :root {
+  background-color: GRAY;
   font-family: Roboto, Arial, sans-serif;
 }
 
 .wrapper{
+
     padding-top: 5%;
     display:grid;
     grid-template-columns: 65% 35%;
@@ -13,12 +15,14 @@
   }
 
 #supersug{
+    background-color: #fff;
     padding-left: 1.125%;
-    padding-right: 9%;
+    padding-right: 1%;
 }
 
 #videonstuff{
-    padding-left: 9%;
+    background-color: #fff;
+    padding-left: 1%;
     padding-right: 1.125%;
 }
 
@@ -86,6 +90,16 @@ nav {
 }
 
 .sug{
+
   display: grid;
-  grid-template-columns: 30% 70%;
+  grid-template-columns: 45% 55%;
+}
+
+.sugimg{
+  width: 100%;
+  height: auto;
+}
+
+.sugtex{
+  padding-left: 5%;
 }

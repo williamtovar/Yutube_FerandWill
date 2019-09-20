@@ -1,17 +1,21 @@
-#main{
-    float:left;
-    width:50%;
-}
+.wrapper{
+    display:grid;
+    grid-template-columns: 65% 35%;
+    
+    grid-column-gap:1em;
+    grid-row-gap:1em;
+    grid-gap:1em;
+  }
 
 #supersug{
-    float:right:
-    width:50%
+    padding-left: 1.125%;
+    padding-right: 9%;
 }
 
-h1{
-    color:red;
+#videonstuff{
+    padding-left: 9%;
+    padding-right: 1.125%;
 }
-
 nav {
     position:fixed;
     width:100%;
@@ -37,6 +41,3 @@ ul {
     text-decoration: none;
   }
  
-  video {
-      padding-top: 10%;
-  }

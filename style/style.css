@@ -198,6 +198,7 @@ nav {
   border-color: #fff;
   border-style: outset;
   border-bottom-color: #f8f8f8;
+  font-size: 16px;
 }
 .cmt{
     display: grid;

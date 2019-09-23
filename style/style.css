@@ -114,20 +114,6 @@ nav {
   padding-left: 2%;
   font-size: 14px;
 }
-
-/*Estilos de la descripcion*/
-#parra{
-  padding-left: 8%;
-}
-#description{
-  background-color: #fff;
-}
-#views{
-  position: relative;
-  left: 73%;
-  top: 55%;
-  font-size: 22px;
-}
 #vtxt{
   color: #757575;
   font-weight: 100;
@@ -148,9 +134,38 @@ nav {
   display: grid;
   grid-template-columns: 15% 15% 40% 15% 15%;
 }
+#views{
+  position: relative;
+  left: 73%;
+  top: 55%;
+  font-size: 22px;
+}
+/*Estilos de la descripcion*/
+#parra{
+  padding-left: 1%;
+}
+#description{
+  background-color: #fff;
+  padding-bottom: 2%;
+}
+#date{
+  font-weight: 600;
+  color: #757575;
+  padding-top: 0.2%;
+  padding-left: 1%;
+}
+#shwmor{
+  color: #757575;
+  font-size: 14px;
+  position: relative;
+  font-weight: 600;
+  left: 45%;
+
+}
 
 /*Estilos de la seccion de comentarios*/
 .comentar{
+  padding-left: 2%;
   background-color: #fff;
 }
 .txtvideo{
@@ -160,11 +175,13 @@ nav {
   color: #757575;
   font-weight: 800;
 }
+
 #profpic{
   width: 25%;
   border-radius: 50%;
 }
 #logs{
+
   display: grid;
   grid-template-columns: 20% 10% 70%;
 }
@@ -173,7 +190,14 @@ nav {
   grid-template-columns: 20% 80%;
 }
 #commentform{
-  padding-top: 5px;
+  position: relative;
+  top: 20%;
+  right: 15%;
+}
+#intxt{
+  border-color: #fff;
+  border-style: outset;
+  border-bottom-color: #f8f8f8;
 }
 .cmt{
     display: grid;

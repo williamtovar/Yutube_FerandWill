@@ -1,6 +1,7 @@
 :root {
   background-color: #f1f1f1;
   font-family: "Roboto", Arial, sans-serif;
+  text-decoration: none;
 }
 h1{
   font-weight: normal;
@@ -26,6 +27,21 @@ p{
     grid-gap:1em;
   }
 /* Seccion Barra de navegacion */
+#srch{
+  width: 20px;
+  height: auto;
+}
+#imgup{
+  width: 20px;
+}
+#btnsig{
+  position: relative;
+  left: 3%;
+  width:30%;
+  height: 60%;
+  background-color: #0049a0;
+  border-color: #0049a0;
+}
 nav {
       position:fixed;
       width:100%;
@@ -118,21 +134,21 @@ nav {
   color: #757575;
   font-weight: 100;
 }
-.btnv{
-  position: relative;
-  left: 30%;
-  top: 10%;
-  width: 16%;
+#imgat{
+  padding-left: 2%;
+  width: 45%;
   height: auto;
 }
-#imgmor{
-  float: left;
-  padding-right: 100%;
-  width: 7%;
+
+#imglk{
+  position: relative;
+  left: 50%;
+  width: 40%;
+  height: auto;
 }
 .btnvideo{
   display: grid;
-  grid-template-columns: 15% 15% 40% 15% 15%;
+  grid-template-columns: 70% 30%;
 }
 #views{
   position: relative;
@@ -140,6 +156,7 @@ nav {
   top: 55%;
   font-size: 22px;
 }
+
 /*Estilos de la descripcion*/
 #parra{
   padding-left: 1%;
@@ -160,30 +177,39 @@ nav {
   position: relative;
   font-weight: 600;
   left: 45%;
-
+  text-decoration: none;
 }
 
 /*Estilos de la seccion de comentarios*/
+#srtimg{
+  position: relative;
+  top: 30%;
+  right: 40%;
+  width: 20%;
+  height: auto;
+}
+#sortb{
+  position: relative;
+  right: 15%;
+  font-size: 15px;
+  color: #757575;
+  font-weight: 600;
+}
 .comentar{
   padding-left: 2%;
   background-color: #fff;
 }
-.txtvideo{
-  position: relative;
-  left: 60%;
-  bottom: 50%;
-  color: #757575;
-  font-weight: 800;
-}
-
 #profpic{
   width: 25%;
   border-radius: 50%;
 }
 #logs{
-
   display: grid;
   grid-template-columns: 20% 10% 70%;
+}
+#numcmt{
+  font-size: 16px;
+  font-weight: 400;
 }
 #mycmt{
   display: grid;
@@ -196,8 +222,8 @@ nav {
 }
 #intxt{
   border-color: #fff;
-  border-style: outset;
-  border-bottom-color: #f8f8f8;
+  border-style: hidden hidden solid hidden;
+  border-bottom-color: #f1f1f1;
   font-size: 16px;
 }
 .cmt{
@@ -212,7 +238,30 @@ nav {
   display: grid;
   grid-template-columns: 15% 85%;
 }
-
+.cmttext{
+  font-size: 12px;
+}
+.cmtname{
+  font-weight: 600;
+}
+.imgscmt{
+  display: grid;
+  grid-template-columns: 5% 5% 15% 75%;
+}
+.cmtlike{
+    width: 40%;
+}
+.cmtrpd{
+  position: relative;
+  bottom: 30%;
+  text-decoration: none;
+  font-size: 11px;
+  font-weight: 600;
+  color: #757575;
+}
+a{
+  text-decoration: none;
+}
 /* Seccion de Sugerencias */
 #supersug{
     background-color: #fff;

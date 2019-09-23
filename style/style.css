@@ -89,14 +89,13 @@ nav {
   font-weight: 100;
   color: #fff;
   position: relative;
-  bottom: 9px;
-
+  bottom: 5px;
 }
 #logow{
   float: left;
   width: 20%;
   height: auto;
-  padding-top: 5%;
+  padding-top: 10%;
 }
 #numsbs{
   position: relative;
@@ -113,6 +112,7 @@ nav {
 }
 #title{
   padding-left: 2%;
+  font-size: 14px;
 }
 
 /*Estilos de la descripcion*/
@@ -124,13 +124,41 @@ nav {
 }
 #views{
   position: relative;
-  left: 70%;
-  font-size: 24px;
+  left: 73%;
+  top: 55%;
+  font-size: 22px;
+}
+#vtxt{
+  color: #757575;
+  font-weight: 100;
+}
+.btnv{
+  position: relative;
+  left: 30%;
+  top: 10%;
+  width: 16%;
+  height: auto;
+}
+#imgmor{
+  float: left;
+  padding-right: 100%;
+  width: 7%;
+}
+.btnvideo{
+  display: grid;
+  grid-template-columns: 15% 15% 40% 15% 15%;
 }
 
 /*Estilos de la seccion de comentarios*/
 .comentar{
   background-color: #fff;
+}
+.txtvideo{
+  position: relative;
+  left: 60%;
+  bottom: 50%;
+  color: #757575;
+  font-weight: 800;
 }
 #profpic{
   width: 25%;

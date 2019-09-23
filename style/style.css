@@ -32,15 +32,25 @@ p{
   height: auto;
 }
 #imgup{
+  position: relative;
+  top: 15%;
   width: 20px;
+
 }
 #btnsig{
   position: relative;
   left: 3%;
-  width:30%;
+  width:25%;
   height: 60%;
   background-color: #0049a0;
   border-color: #0049a0;
+  border-radius: 10%
+}
+#txtsgin{
+
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
 }
 nav {
       position:fixed;
@@ -52,8 +62,8 @@ nav {
 #logom{
   padding-left: 2%;
   padding-top: 2%;
-  width: 35%;
-  height: 2%;
+  width: 40%;
+  height: auto;
 }
 
 /* Seccion del video */
@@ -78,6 +88,7 @@ nav {
   grid-template-columns: 80% 20%;
 }
 #chanelpic{
+  padding-top: 5%;
   width: 85%;
   padding-left: 25%;
 }
@@ -91,32 +102,31 @@ nav {
 }
 #btb{
   width:60%;
-  height: 60%;
+  height: 55%;
   background-color: #0049a0;
   border-color: #0049a0;
   border-top-left-radius: 10%;
   border-bottom-left-radius: 10%;
   position: relative;
   bottom: 20%;
-
 }
 #txtb{
   font-size:14px;
   font-weight: 100;
   color: #fff;
   position: relative;
-  bottom: 5px;
+  bottom: 7px;
 }
 #logow{
   float: left;
   width: 20%;
   height: auto;
-  padding-top: 10%;
+  padding-top: 7%;
 }
 #numsbs{
   position: relative;
   right: 165%;
-  bottom: 40%;
+  bottom: 43%;
   border: 2px solid #ccc;
   border-left: 2px solid #0049a0;
   padding: 20%;
@@ -229,8 +239,13 @@ nav {
 .cmt{
     display: grid;
     grid-template-columns: 10% 90%;
+    width: auto;
+    height: 3%;
 }
 .cmtimg{
+  position: relative;
+  left: 5%;
+  top: 3%;
   width: 50%;
   border-radius: 50%;
 }
@@ -243,6 +258,10 @@ nav {
 }
 .cmtname{
   font-weight: 600;
+}
+.cmthora{
+  position: relative;
+  right: 5.5%;
 }
 .imgscmt{
   display: grid;
@@ -262,15 +281,18 @@ nav {
 a{
   text-decoration: none;
 }
+
 /* Seccion de Sugerencias */
 #supersug{
     background-color: #fff;
     padding-left: 1.125%;
     padding-right: 1%;
 }
-.sug{
+.sug  {
   display: grid;
   grid-template-columns: 45% 55%;
+  width: auto;
+  height: 110px;
 }
 .sugimg{
   width: 100%;
@@ -278,4 +300,20 @@ a{
 }
 .sugtex{
   padding-left: 5%;
+}
+.sugtitle{
+  font-weight: 600;
+  font-size: 18px;
+}
+.sugcha{
+  position: relative;
+  bottom: 25%;
+  color: #757575;
+  font-size: 14px;
+}
+.sugsub{
+  position: relative;
+  bottom: 50%;
+  color: #757575;
+  font-size: 15px;
 }

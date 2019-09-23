@@ -13,84 +13,78 @@
     grid-row-gap:1em;
     grid-gap:1em;
   }
+/* Seccion Barra de navegacion */
+  nav {
+      position:fixed;
+      width:100%;
+      display:grid;
+      grid-template-columns: 30% 60% 20%;
+      background-color: #fff;
+  }
 
-#supersug{
-    background-color: #fff;
-    padding-left: 1.125%;
-    padding-right: 1%;
-}
-
+/* Seccion del video */
 #videonstuff{
-
     padding-left: 1%;
     padding-right: 1.125%;
 }
-
 .video{
   background-color: #fff;
 }
 
+/* Estilos de la informacion del video */
 .info{
   background-color: #fff;
 }
-
-.comentar{
-  background-color: #fff;
+#infchan{
+  display: grid;
+  grid-template-columns: 10% 30% 60%;
+}
+#suscribe{
+  display: grid;
+  grid-template-columns: 80% 20%;
+}
+#chanelpic{
+  width: 85%;
+  padding-left: 25%;
+}
+#tltv{
+  font-size:16px;
+}
+#btb{
+  width:50%;
+  background-color: BLUE;
+}
+#title{
+  padding-left: 5%;
 }
 
+/*Estilos de la descripcion*/
+#parra{
+  padding-left: 8%;
+}
 #description{
   background-color: #fff;
 }
 
-#btb{
-  background-color: RED;
+/*Estilos de la seccion de comentarios*/
+.comentar{
+  background-color: #fff;
 }
-
-nav {
-    position:fixed;
-    width:100%;
-    display:grid;
-    grid-template-columns: 30% 60% 20%;
-    background-color: #fff;
-}
-
 #profpic{
   width: 25%;
   border-radius: 50%;
 }
-
 #logs{
   display: grid;
   grid-template-columns: 20% 10% 70%;
-
-}
-
-#likes{
-  display: grid;
-  grid-template-columns: 80% 20%;
-}
-
-#infchan{
-  display: grid;
-  grid-template-columns: 8% 62% 30%;
-}
-
-#chanelpic{
-  width: 85%;
-  border-radius: 50%;
-}
-#parra{
-  padding-left: 8%;
 }
 #mycmt{
   display: grid;
   grid-template-columns: 20% 80%;
 }
-
 #commentform{
   padding-top: 5px;
 }
-
 .cmt{
     display: grid;
     grid-template-columns: 10% 90%;
@@ -99,23 +93,25 @@ nav {
   width: 50%;
   border-radius: 50%;
 }
-
 .cmt1{
   display: grid;
   grid-template-columns: 15% 85%;
 }
 
+/* Seccion de Sugerencias */
+#supersug{
+    background-color: #fff;
+    padding-left: 1.125%;
+    padding-right: 1%;
+}
 .sug{
-
   display: grid;
   grid-template-columns: 45% 55%;
 }
-
 .sugimg{
   width: 100%;
   height: auto;
 }
-
 .sugtex{
   padding-left: 5%;
 }

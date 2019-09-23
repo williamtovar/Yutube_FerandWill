@@ -21,9 +21,25 @@
 }
 
 #videonstuff{
-    background-color: #fff;
+
     padding-left: 1%;
     padding-right: 1.125%;
+}
+
+.video{
+  background-color: #fff;
+}
+
+.info{
+  background-color: #fff;
+}
+
+.comentar{
+  background-color: #fff;
+}
+
+#description{
+  background-color: #fff;
 }
 
 #btb{

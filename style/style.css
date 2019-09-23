@@ -1,6 +1,18 @@
 :root {
-  background-color: GRAY;
+  background-color: #f1f1f1;
   font-family: Roboto, Arial, sans-serif;
+}
+h1{
+  
+}
+h2{
+  color: #333333;
+}
+h3{
+  color: #333333;
+}
+p{
+  color: #333333;
 }
 
 .wrapper{
@@ -14,13 +26,19 @@
     grid-gap:1em;
   }
 /* Seccion Barra de navegacion */
-  nav {
+nav {
       position:fixed;
       width:100%;
       display:grid;
       grid-template-columns: 30% 60% 20%;
       background-color: #fff;
-  }
+}
+#logom{
+  padding-left: 2%;
+  padding-top: 2%;
+  width: 35%;
+  height: 2%;
+}
 
 /* Seccion del video */
 #videonstuff{
@@ -48,6 +66,7 @@
   padding-left: 25%;
 }
 #tltv{
+
   font-size:16px;
 }
 #btb{

@@ -4,135 +4,188 @@
   <head>
     <link rel="stylesheet" href="./style/style.css">
     <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" type="text/css">
     <title>U-Tube</title>
+    <link rel="icon" href="Icons\icon_blue.png">
   </head>
   <body>
       <nav class="loneli">
           <!-- top bar green -->
-            <ul>
-              <li><img src="#"></li>
-              <li>
+
+              <div id="imgutu"><img id="logom"src="Icons\logo_main.png"></div>
+              <div id="brws">
                   <form class="form-group" action="index.html" method="post">
-                      <input type="text" name="Search" value="Search">
+                      <input id="search" type="text" name="Search" value="Search">
+                      <Button id="searchbt" type="submit"><img id="srch" src="Icons\icon_search.png"></button>
                   </form>
-              </li>
-              <li><Button type="submit"><img src="#"></Button></li>
-              <li><img src="#"></li>
-            </ul>
+
+              </div>
+              <!--<div id="btn"><Button type="submit"><img src="#"></Button></div>
+              --><div id="imgoto">
+              <a href="#">
+                  <img id="imgup"src="Icons\icon_upload.png">
+              </a>
+                  <button id="btnsig" type="button" name="button"><a id="txtsgin">Sing in</a></button>
+                </div>
            </nav>
-  
-  
+
+
     <div class="wrapper">
       <div id="videonstuff">
          <!-- Video Blue -->
           <div class="video">
-              <video src="videofile.ogg" autoplay poster="posterimage.jpg" controls width="100%" height="auto">
-      
+              <video poster ="img\video_thumbnail.png" src="https://www.youtube.com/embed/oXMb1mhIpqQ" controls width="100%" height="auto">
+
               </video>
             </div>
-  
+
         <!-- Info Yellow -->
         <div class="info">
             <div id="title">
                 <h1>This is a tribute, not a cheap knock-off</h1>
-                <h2>160 views • Published on Sep 19, 2019 BC</h2>
             </div>
-            <div id="likes">
-              <img src="#" href="#">
+            <div id="infchan">
+                <img id="chanelpic" src="img\Chan_pic.png">
+                <div id="titlechan"><h3 id="tltv">Randoming</h3>
+                  <div id="suscribe">
+                    <!--<Button id="btb" type="submit"><img id="logow" src="Icons\icon_white.png"> <p id="txtb">Subscribe</p></Button>
+                    <p id="numsbs">-20,1M</p>
+                  -->
+                    <a href="#">
+                      <img id="imgbtsub"src="Icons\subscribe_button2.png" alt="">
+                    </a>
+                  </div>
+                </div>
+                  <div id="views">
+                    <h3 id="vtxt">160 views</h2>
+                  </div>
             </div>
-          </div> 
-          <hr>
-          <div id="description">
-            <table>
-              <tr>
-                <th><img id="chanelpic" src="#"></th>
-                <th><h1>Randoming</h1></th>
-              </tr>
-              <tr>
-                <th></th>
-                <th><h2>-20,000 Suscribers</h2></th>
-              </tr>
-              <tr>
-                <th></th>
-                <th><p>Please don't be harsh when reviewing this</p></th>
-              </tr>
-              <tr>
-                <th></th>
-                <th><h4>SHOW MORE</h4></th>
-              </tr>
-              <tr>
-  
-              </tr>
-            </table>
-          </div>
-          <div id="suscribe">
-            <Button type="submit">Suscribe</Button>
-          </div>
-          <hr>
-  
+            <hr>
+            <div class="btnvideo">
+              <div><a href="#">
+                <img class="btnv" id="imgat"src="Icons\iconset.png" href="#">
+              </a></div>
+
+              <div><a href="#">
+                <img class="btnv" id="imglk" src="Icons\thumbs.png" href="#">
+              </a></div>
+
+            </div>
+            </div>
+
+            <br>
+            <div id="description">
+
+                <div id="date"> <p> Published on Sep 19, 2019 BC </p> </div>
+                <div id="parra"><p>Please don't be harsh when reviewing this</p>
+                  <hr>
+                <a id="shwmor" href="#">SHOW MORE</a>
+
+              </div>
+            </div>
+<br>
+        <div class="comentar">
           <div id="logs">
-            <h3>4 Comments</h3>
-            <img src="#">
-            <h3>SORT BY</h3>
-  
+            <h3 id="numcmt">4 Comments</h3>
+            <a href="#">
+              <img id="srtimg" src="Icons\sort comments icon.png">
+            </a>
+            <h3 id="sortb">SORT BY</h3>
           </div>
-  
+
           <!-- Comments Pink -->
           <div id="comment">
-              <img id="profpic" src="#">
+            <div id="mycmt">
+              <img id="profpic" src="img\prof_pic_1.jpg">
               <form id="commentform">
-                <input type="text">
+                <input id="intxt" type="text" size="80" placeholder="Add a public comment...">
                 <!--<hr>-->
               </form>
+              </div>
+              <br><br>
               <div class="cmt">
-                 <img class="cmtimg" src="#" href="#">
+                 <img class="cmtimg" src="img\prof_pic_2.jpg" href="#">
                  <div class="cmttext">
-                   <p class="cmtname">User Name 1</p>
-                   <p class="cmthora">3 minuts ago</p>
-                   <br>
+                   <div class="cmt1">
+                     <p class="cmtname">User Name 1</p>
+                     <p class="cmthora">3 minutes ago</p>
+                   </div>
+
                    <p class="cmtw">Comment asdf asdf asfd</p>
-                   <img class="cmtlike" src="#" href="#">
+                   <a href="#">
+                   <div class="imgscmt">
+                     <img class="cmtlike" src="Icons\icons_thumbup.png">
+                     <img class="cmtlike" src="Icons\icon_thumbsdown.png">
+                     <p class="cmtrpd">REPLY</p>
+                  </div>
+                  </a>
                  </div>
               </div>
               <br><br>
               <div class="cmt">
-                 <img class="cmtimg" src="#" href="#">
+                 <img class="cmtimg" src="img\prof_pic_3.jpg" href="#">
                  <div class="cmttext">
-                   <p class="cmtname">User Name 2</p>
-                   <p class="cmthora">4 minuts ago</p>
-                   <br>
+                   <div class="cmt1">
+                     <p class="cmtname">User Name 2</p>
+                     <p class="cmthora">4 minutes ago</p>
+                   </div>
+
                    <p class="cmtw">Comment asdf asdfasdasd asfd</p>
-                   <img class="cmtlike" src="#" href="#">
+                   <a href="#">
+                   <div class="imgscmt">
+                     <img class="cmtlike" src="Icons\icons_thumbup.png">
+                     <img class="cmtlike" src="Icons\icon_thumbsdown.png">
+                     <p class="cmtrpd">REPLY</p>
+                  </div>
+                  </a>
                  </div>
               </div>
               <br><br>
               <div class="cmt">
-                 <img class="cmtimg" src="#" href="#">
+                 <img class="cmtimg" src="img\prof_pic_4.jpg" href="#">
                  <div class="cmttext">
-                   <p class="cmtname">User Name 3</p>
-                   <p class="cmthora">7 minuts ago</p>
-                   <br>
+                   <div class="cmt1">
+                     <p class="cmtname">User Name 3</p>
+                     <p class="cmthora">7 minutes ago</p>
+                   </div>
+
                    <p class="cmtw">Comment asdhfghfghf asdfasdajkfgsd asfd</p>
-                   <img class="cmtlike" src="#" href="#">
+                   <a href="#">
+                   <div class="imgscmt">
+                     <img class="cmtlike" src="Icons\icons_thumbup.png">
+                     <img class="cmtlike" src="Icons\icon_thumbsdown.png">
+                     <p class="cmtrpd">REPLY</p>
+                  </div>
+                  </a>
                  </div>
               </div>
               <br><br>
               <div class="cmt">
-                 <img class="cmtimg" src="#" href="#">
+                 <img class="cmtimg" src="img\prof_pic_5.jpg" href="#">
                  <div class="cmttext">
-                   <p class="cmtname">User Name 4</p>
-                   <p class="cmthora">1 hour ago</p>
-                   <br>
+                   <div class="cmt1">
+                     <p class="cmtname">User Name 5</p>
+                     <p class="cmthora">20 minutes ago</p>
+                   </div>
+
                    <p class="cmtw">Comment asdf asdfasdasd asdasasfd</p>
-                   <img class="cmtlike" src="#" href="#">
+                   <a href="#">
+                   <div class="imgscmt">
+                     <img class="cmtlike" src="Icons\icons_thumbup.png">
+                     <img class="cmtlike" src="Icons\icon_thumbsdown.png">
+                     <p class="cmtrpd">REPLY</p>
+                  </div>
+                  </a>
                  </div>
               </div>
             </div>
           <!-- Above this -->
       </div>
-      <div>
+    </div>
+
+      <div class="contain" id="supersug">
           <div class="sug">
-              <img class="sugimg" src="#" href="#">
+              <img class="sugimg" src="img\preview_1.PNG" href="#">
               <div class="sugtex">
                   <p class="sugtitle">Title</p>
                   <br>
@@ -141,9 +194,9 @@
                   <p class="sugsub">4 Subscribers</p>
               </div>
             </div>
-            <br><br>
+            <br><hr><br>
             <div class="sug">
-              <img class="sugimg" src="#" href="#">
+              <img class="sugimg" src="img\preview_2.PNG" href="#">
               <div class="sugtex">
                   <p class="sugtitle">Title</p>
                   <br>
@@ -152,9 +205,9 @@
                   <p class="sugsub">5 Subscribers</p>
               </div>
             </div>
-            <br><br>
+            <br><hr><br>
             <div class="sug">
-              <img class="sugimg" src="#" href="#">
+              <img class="sugimg" src="img\preview_3.PNG" href="#">
               <div class="sugtex">
                   <p class="sugtitle">Title 3</p>
                   <br>
@@ -163,9 +216,9 @@
                   <p class="sugsub">1 Subscribers</p>
               </div>
             </div>
-            <br><br>
+            <br><hr><br>
             <div class="sug">
-              <img class="sugimg" src="#" href="#">
+              <img class="sugimg" src="img\preview_4.PNG" href="#">
               <div class="sugtex">
                   <p class="sugtitle">Title 4</p>
                   <br>
@@ -174,9 +227,9 @@
                   <p class="sugsub">8 Subscribers</p>
               </div>
             </div>
-            <br><br>
+            <br><hr><br>
             <div class="sug">
-              <img class="sugimg" src="#" href="#">
+              <img class="sugimg" src="img\preview_5.PNG" href="#">
               <div class="sugtex">
                   <p class="sugtitle">Title 5</p>
                   <br>
@@ -185,9 +238,9 @@
                   <p class="sugsub">5 Subscribers</p>
               </div>
             </div>
-            <br><br>
+            <br><hr><br>
             <div class="sug">
-              <img class="sugimg" src="#" href="#">
+              <img class="sugimg" src="img\preview_6.PNG" href="#">
               <div class="sugtex">
                   <p class="sugtitle">Title 6</p>
                   <br>
@@ -196,11 +249,51 @@
                   <p class="sugsub">9 Subscribers</p>
               </div>
             </div>
-  
-            
+            <br><hr><br>
+            <div class="sug">
+              <img class="sugimg" src="img\preview_7.PNG" href="#">
+              <div class="sugtex">
+                  <p class="sugtitle">Title 7</p>
+                  <br>
+                  <p class="sugcha">Chanellll 7</p>
+                  <br>
+                  <p class="sugsub">100 Subscribers</p>
+              </div>
+            </div>
+            <br><hr><br>
+            <div class="sug">
+              <img class="sugimg" src="img\preview_8.PNG" href="#">
+              <div class="sugtex">
+                  <p class="sugtitle">Title asdadad 8</p>
+                  <br>
+                  <p class="sugcha">Chanel 8</p>
+                  <br>
+                  <p class="sugsub">-900 Subscribers</p>
+              </div>
+            </div>
+            <br><hr><br>
+            <div class="sug">
+              <img class="sugimg" src="img\preview_9.PNG" href="#">
+              <div class="sugtex">
+                  <p class="sugtitle">Title 9</p>
+                  <br>
+                  <p class="sugcha">Chanel 9</p>
+                  <br>
+                  <p class="sugsub">900 Subscribers</p>
+              </div>
+            </div>
+            <br><hr><br>
+            <div class="sug">
+              <img class="sugimg" src="img\preview_10.PNG" href="#">
+              <div class="sugtex">
+                  <p class="sugtitle">Title 10</p>
+                  <br>
+                  <p class="sugcha">Chanel 100000</p>
+                  <br>
+                  <p class="sugsub">9M Subscribers</p>
+              </div>
+            </div>
       </div>
-  
-      
     </div>
 </body>
 </html>

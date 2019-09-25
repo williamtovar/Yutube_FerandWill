@@ -15,11 +15,9 @@ p{
 }
 
 .wrapper{
-
-    padding-top: 5%;
+    padding-top: 4%;
     display:grid;
     grid-template-columns: 65% 35%;
-
     grid-column-gap:1em;
     grid-row-gap:1em;
     grid-gap:1em;
@@ -29,7 +27,11 @@ p{
   width: 20px;
   height: auto;
 }
-
+.imgdotsito{
+  transform: rotate(90deg);
+  width: 7%;
+  height: auto;
+}
 #search {
 margin-top: 2px;
 margin-right: -2%;
@@ -61,12 +63,10 @@ border-bottom-left-radius: 5px;
   top: 15%;
   width: 20px;
 }
-
 #imgoto{
   position: relative;
   top: 10px;
 }
-
 #btnsig{
   position: relative;
   left: 3%;
@@ -78,18 +78,20 @@ border-bottom-left-radius: 5px;
   border-style: solid;
 }
 #txtsgin{
-
   color: #fff;
   font-size: 14px;
   font-weight: 600;
 }
 nav {
       position:fixed;
+      box-sizing: border-box;
       width:100%;
       display:grid;
-      grid-template-columns: 30% 60% 20%;
-      background-color: #fff
-      ;z-index: 10;
+      grid-template-columns: 30% 55% 25%;
+      background-color: #fff;
+      z-index: 10;
+      margin: -8px;
+      padding: 0%;
 }
 #logom{
   padding-left: 2%;
@@ -97,10 +99,9 @@ nav {
   width: 40%;
   height: auto;
 }
-
 #brws {
   position: relative;
-  right: 6%;
+  right: 1%;
   top: 10px;
 }
 
@@ -141,33 +142,6 @@ nav {
   position: relative;
   bottom: 5%;
 }
-/*
-#btb{
-  width:60%;
-  height: 20%;
-  background-color: #0049a0;
-  border-color: #0049a0;
-  border-top-left-radius: 5px;
-  border-bottom-left-radius: 5px;
-  position: relative;
-  bottom: 15%;
-  border-style: solid;
-  border-width: 20px;
-#txtb{
-  font-size:14px;
-  font-weight: 100;
-  color: #fff;
-  position: relative;
-  bottom: 45px;
-  left: 25%;
-}
-#logow{
-  position: relative;
-  right: 50%;
-  bottom: 9px;
-  width: 45%;
-  height: auto;
-}*/
 #imgbtsub{
   position: relative;
   bottom: 20%;
@@ -341,6 +315,8 @@ a{
     background-color: #fff;
     padding-left: 1.125%;
     padding-right: 1%;
+    padding-bottom: 3%;
+
 }
 .sug  {
   display: grid;
@@ -370,4 +346,55 @@ a{
   bottom: 50%;
   color: #757575;
   font-size: 15px;
+}
+
+/*------FOOOOOTT------*/
+.foot{
+  margin-top: 2%;
+  background-color: #fff;
+}
+.footup{
+  padding-top: 5px;
+  top: 100%;
+  display: grid;
+  grid-template-columns: 0.6% 10% 2% 5% 5% 5% 5% 5% 5% 5% 2% 5% 60%;
+}
+
+#logofot{
+  width: 100%;
+  height: auto;
+  padding-top: 5%;
+}
+.btnfot1{
+  margin-top: 15%;
+  width: 160%;
+  height: 60%;
+}
+.btnfot3{
+  margin-top: 15%;
+  width: 100%;
+  height: 60%;
+}
+.footdown{
+  display: grid;
+  grid-template-rows: 50% 50%;
+}
+.downtop{
+  display: grid;
+  grid-template-columns: 4% 3.5% 6% 5.5% 6% 4% 50%;
+}
+.downdown{
+  display: grid;
+  grid-template-columns: 4% 4% 8% 10% 60%;
+}
+.txtfotu{
+  padding-left: 20%;
+  font-size: 12px;
+  font-weight: 600;
+}
+.txtfotd{
+  padding-left: 20%;
+  font-size: 10px;
+  font-weight: 400;
+  color: #757575;
 }

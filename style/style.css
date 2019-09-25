@@ -323,29 +323,36 @@ a{
   grid-template-columns: 45% 55%;
   width: auto;
   height: 110px;
+
 }
 .sugimg{
   width: 100%;
   height: auto;
 }
 .sugtex{
+  position: relative;
+  bottom: 10%;
   padding-left: 5%;
+
 }
 .sugtitle{
   font-weight: 600;
   font-size: 18px;
+  padding-bottom: 2%;
 }
 .sugcha{
   position: relative;
   bottom: 25%;
   color: #757575;
   font-size: 14px;
+  padding-bottom: 2%;
 }
 .sugsub{
   position: relative;
   bottom: 50%;
   color: #757575;
   font-size: 15px;
+  padding-top: 2%;
 }
 
 /*------FOOOOOTT------*/

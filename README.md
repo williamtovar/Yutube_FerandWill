@@ -11,4 +11,4 @@ This project is based on this: https://www.theodinproject.com/courses/html5-and-
 
 After our second review, we were told to make it look exactly as the youtube page, using their logos and so.
 
-Sadly, we were right in our asumption that is was the best to create our own logo and images, since we contacted youtube (mexico) and were denied authorization to use their branding an immage, please refrain from asking us to violate copyright law. This excersise's goals are about doing an structurally similar webpage, not about using a thrid party's intelectual property.
+Sadly, we were right in our assumption that is was the best to create our own logo and images, since we contacted youtube (mexico) and were denied authorization to use their branding an immage, please refrain from asking us to violate copyright law. This exercise goals are about doing an structurally similar webpage, not about using a thrid party's intelectual property.

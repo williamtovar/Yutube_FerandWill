@@ -108,6 +108,10 @@ nav {
     padding-left: 1%;
     padding-right: 1.125%;
 }
+video{
+  width: 100%;
+  height: auto;
+}
 .video{
   background-color: #fff;
 }
